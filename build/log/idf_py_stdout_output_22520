@@ -1,0 +1,144 @@
+Vɥm[0ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7084
+ho 0 tail 12 room 4
+load:0x40078000,len:15576
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3876
+entry 0x4008064c
+[0;32mI (33) boot: ESP-IDF v5.1-dirty 2nd stage bootloader[0m
+[0;32mI (33) boot: compile time Feb  4 2024 11:56:30[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (38) boot: chip revision: v3.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (46) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (51) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (55) boot: Enabling RNG early entropy source...[0m
+[0;32mI (61) boot: Partition Table:[0m
+[0;32mI (64) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (79) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (94) boot: End of partition table[0m
+[0;32mI (98) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a750h ( 42832) map[0m
+[0;32mI (122) esp_image: segment 1: paddr=0001a778 vaddr=3ffb0000 size=02148h (  8520) load[0m
+[0;32mI (126) esp_image: segment 2: paddr=0001c8c8 vaddr=40080000 size=03750h ( 14160) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=166b8h ( 91832) map[0m
+[0;32mI (169) esp_image: segment 4: paddr=000366e0 vaddr=40083750 size=095c8h ( 38344) load[0m
+[0;32mI (192) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (192) boot: Disabling RNG early entropy source...[0m
+[0;32mI (204) cpu_start: Multicore app[0m
+[0;32mI (204) cpu_start: Pro cpu up.[0m
+[0;32mI (204) cpu_start: Starting app cpu, entry point is 0x400811c8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (222) cpu_start: Pro cpu start user code[0m
+[0;32mI (222) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (222) cpu_start: Application information:[0m
+[0;32mI (227) cpu_start: Project name:     FirwareTaskInternship[0m
+[0;32mI (233) cpu_start: App version:      1[0m
+[0;32mI (237) cpu_start: Compile time:     Feb  4 2024 11:56:10[0m
+[0;32mI (243) cpu_start: ELF file SHA256:  9bc45e0d860ae42a...[0m
+[0;32mI (249) cpu_start: ESP-IDF:          v5.1-dirty[0m
+[0;32mI (255) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (259) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (264) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (269) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (276) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (282) heap_init: At 3FFB29B0 len 0002D650 (181 KiB): DRAM[0m
+[0;32mI (288) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (295) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (301) heap_init: At 4008CD18 len 000132E8 (76 KiB): IRAM[0m
+[0;32mI (309) spi_flash: detected chip: generic[0m
+[0;32mI (312) spi_flash: flash io: dio[0m
+[0;33mW (316) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (330) app_start: Starting scheduler on CPU0[0m
+[0;32mI (334) app_start: Starting scheduler on CPU1[0m
+[0;32mI (334) main_task: Started on CPU0[0m
+[0;32mI (344) main_task: Calling app_main()[0m
+[0;32mI (344) uart: queue free spaces: 10[0m
+[0;32mI (344) main_task: Returned from app_main()[0m
+[0;32mI (1054) UART TEST: Recv str: d[0m
+[0;32mI (1184) UART TEST: Recv str: s[0m
+[0;32mI (1384) UART TEST: Recv str: f[0m
+[0;32mI (1664) UART TEST: Recv str: f[0m
+[0;32mI (1924) UART TEST: Recv str: s[0m
+[0;32mI (2024) UART TEST: Recv str: f[0m
+[0;32mI (2714) UART TEST: Recv str: f[0m
+[0;32mI (2874) UART TEST: Recv str: sd[0m
+[0;32mI (3894) UART TEST: Recv str: v[0m
+[0;32mI (4044) UART TEST: Recv str: ds[0m
+[0;32mI (4354) UART TEST: Recv str: d[0m
+[0;32mI (4454) UART TEST: Recv str: f[0m
+[0;32mI (4664) UART TEST: Recv str: ds[0m
+[0;32mI (4784) UART TEST: Recv str: f[0m
+[0;32mI (4954) UART TEST: Recv str: d[0m
+[0;32mI (5494) UART TEST: Recv str: f[0m
+[0;32mI (5654) UART TEST: Recv str: ds[0m
+[0;32mI (5834) UART TEST: Recv str: f[0m
+[0;32mI (7704) UART TEST: Recv str: h[0m
+[0;32mI (7824) UART TEST: Recv str: iu[0m
+[0;32mI (9684) UART TEST: Recv str: i[0m
+[0;32mI (9944) UART TEST: Recv str: am[0m
+[0;32mI (10064) UART TEST: Recv str: a[0m
+[0;32mI (10424) UART TEST: Recv str: [0m
+[0;32mI (11264) UART TEST: Recv str: as[0m
+[0;32mI (11364) UART TEST: Recv str: dn[0m
+[0;32mI (11554) UART TEST: Recv str: jsn[0m
+[0;32mI (11734) UART TEST: Recv str: fjn[0m
+[0;32mI (11944) UART TEST: Recv str: jnf[0m
+[0;32mI (12294) UART TEST: Recv str: anfjn[0m
+[0;32mI (12474) UART TEST: Recv str: sajn[0m
+[0;32mI (12644) UART TEST: Recv str: fkjn[0m
+[0;32mI (12874) UART TEST: Recv str: fmnas[0m
+[0;32mI (13014) UART TEST: Recv str: fn[0m
+[0;32mI (13244) UART TEST: Recv str: nf[0m
+[0;32mI (13484) UART TEST: Recv str: asnj[0m
+[0;32mI (22984) UART TEST: Recv str: dasm[0m
+[0;32mI (23094) UART TEST: Recv str:  [0m
+[0;32mI (23324) UART TEST: Recv str: m d[0m
+[0;32mI (23474) UART TEST: Recv str:  a[0m
+[0;32mI (23734) UART TEST: Recv str: dnj[0m
+[0;32mI (23944) UART TEST: Recv str: dj[0m
+[0;32mI (24374) UART TEST: Recv str: nasjndjsn[0m
+[0;32mI (24474) UART TEST: Recv str: j[0m
+[0;32mI (24584) UART TEST: Recv str: nas[0m
+[0;32mI (24734) UART TEST: Recv str: jdn[0m
+[0;32mI (24914) UART TEST: Recv str: jasn[0m
+[0;32mI (25034) UART TEST: Recv str: djk[0m
+[0;32mI (25144) UART TEST: Recv str: nas[0m
+[0;32mI (25554) UART TEST: Recv str: dnjasnd[0m
+[0;32mI (25834) UART TEST: Recv str: bask [0m
+[0;32mI (26054) UART TEST: Recv str: [0m
+[0;32mI (26554) UART TEST: Recv str: djasn[0m
+[0;32mI (26724) UART TEST: Recv str: jdn[0m
+[0;32mI (27064) UART TEST: Recv str: asjkdnjasn[0m
+[0;32mI (27174) UART TEST: Recv str: jdk[0m
+[0;32mI (27294) UART TEST: Recv str: nas[0m
+[0;32mI (27514) UART TEST: Recv str: ndj[0m
+[0;32mI (27624) UART TEST: Recv str: nsa[0m
+[0;32mI (27814) UART TEST: Recv str: jkd[0m
+[0;32mI (27924) UART TEST: Recv str: na[0m
+[0;32mI (28094) UART TEST: Recv str: dk[0m
+[0;32mI (28334) UART TEST: Recv str: dnb[0m
+[0;32mI (28454) UART TEST: Recv str: s[0m
+[0;32mI (28684) UART TEST: Recv str: dka[0m
+[0;32mI (29574) UART TEST: Recv str: m[0m
+[0;32mI (29864) UART TEST: Recv str: dn[0m
+[0;32mI (30094) UART TEST: Recv str: n[0m
+[0;32mI (30404) UART TEST: Recv str: d[0m
+[0;32mI (30714) UART TEST: Recv str: j[0m
+[0;32mI (30884) UART TEST: Recv str: w[0m
+[0;32mI (31124) UART TEST: Recv str: d[0m
+[0;32mI (31594) UART TEST: Recv str: m[0m
+[0;32mI (32044) UART TEST: Recv str: j[0m
+[0;32mI (32194) UART TEST: Recv str: d[0m
+[0;32mI (33944) UART TEST: Recv str: [0m
+[0;32mI (35184) UART TEST: Recv str: sd[0m
+[0;32mI (35724) UART TEST: Recv str: d[0m
+[0;32mI (35854) UART TEST: Recv str: a[0m
+[0;32mI (36484) UART TEST: Recv str: da[0m
